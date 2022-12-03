@@ -66,16 +66,22 @@ public class Main {
         int masha = 67760;
         int denis = 83690;
         int kristina = 76230;
-        int salaryMasha = masha + (masha / 10);// ключ к лучшему понимаю остатка деления на цело в этой строчке
-        int salary
-        System.out.println(salaryMasha);
+        int salaryMasha = masha + (masha / 10);
+        int salaryDenis = denis + (denis / 10);
+        int salaryKristina = kristina + (kristina / 10);
+        int mashaSalaryYear = (salaryMasha * 12) - (masha * 12);
+        int denisSalaryYear = (salaryDenis * 12) - (denis * 12);
+        int kristinaSalaryYear = (salaryKristina * 12) - (kristina * 12);
+        System.out.println("Маша теперь получает " + salaryMasha + " рублей. Годовой доход вырос на " + mashaSalaryYear + " рублей.");
+        System.out.println("Денис теперь получает " + salaryDenis + " рублей. Годовой доход вырос на " + denisSalaryYear + " рублей.");
+        System.out.println("Кристина теперь получает " + kristinaSalaryYear + " рублей. Годовой доход вырос на " + kristinaSalaryYear + " рублей.");
+
+        
 
 
         
         
 
-        
 
-         
     }
 }

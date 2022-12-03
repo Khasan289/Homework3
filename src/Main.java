@@ -12,12 +12,12 @@ public class Main {
         System.out.println("Значение переменной d с тимпом long равно " + d);
         System.out.println("Значение переменной e с тимпом float равно " + e);
         System.out.println("Значение переменной f с типом double равно " + f);
-        float one = 27.12f;
-        long second = 987678965549L;
-        float free = 2.786f;
-        short four = 569;
-        int five = 27897;
-        byte six = 67;
+        float g = 27.12f;
+        long h = 987678965549L;
+        float i = 2.786f;
+        short j = 569;
+        int k = 27897;
+        byte l = 67;
         var liudmilaPavlovna = 23;
         var annaSergeevna = 27;
         var ekaterinaAndreevna = 30;
